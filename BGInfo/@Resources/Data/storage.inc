@@ -8,7 +8,9 @@ disk6=H:
 disk7=I:
 disk8=J:
 disk9=K:
+disk10=L:
 
+; Disk 1
 [measureTitleDisk1]
 Measure=FreeDiskSpace
 Drive=#disk1#
@@ -27,6 +29,12 @@ Drive=#disk1#
 InvertMeasure=1
 UpdateDivider=120
 
+[measureFreeDisk1]
+Measure=FreeDiskSpace
+Drive=#disk1#
+UpdateDivider=120
+
+; Disk 2
 [measureTitleDisk2]
 Measure=FreeDiskSpace
 Drive=#disk2#
@@ -45,6 +53,12 @@ Drive=#disk2#
 InvertMeasure=1
 UpdateDivider=120
 
+[measureFreeDisk2]
+Measure=FreeDiskSpace
+Drive=#disk2#
+UpdateDivider=120
+
+; Disk 3
 [measureTitleDisk3]
 Measure=FreeDiskSpace
 Drive=#disk3#
@@ -63,6 +77,12 @@ Drive=#disk3#
 InvertMeasure=1
 UpdateDivider=120
 
+[measureFreeDisk3]
+Measure=FreeDiskSpace
+Drive=#disk3#
+UpdateDivider=120
+
+; Disk 4
 [measureTitleDisk4]
 Measure=FreeDiskSpace
 Drive=#disk4#
@@ -81,6 +101,12 @@ Drive=#disk4#
 InvertMeasure=1
 UpdateDivider=120
 
+[measureFreeDisk4]
+Measure=FreeDiskSpace
+Drive=#disk4#
+UpdateDivider=120
+
+; Disk 5
 [measureTitleDisk5]
 Measure=FreeDiskSpace
 Drive=#disk5#
@@ -99,6 +125,12 @@ Drive=#disk5#
 InvertMeasure=1
 UpdateDivider=120
 
+[measureFreeDisk5]
+Measure=FreeDiskSpace
+Drive=#disk5#
+UpdateDivider=120
+
+; Disk 6
 [measureTitleDisk6]
 Measure=FreeDiskSpace
 Drive=#disk6#
@@ -115,4 +147,57 @@ UpdateDivider=120
 Measure=FreeDiskSpace
 Drive=#disk6#
 InvertMeasure=1
+UpdateDivider=120
+
+[measureFreeDisk6]
+Measure=FreeDiskSpace
+Drive=#disk6#
+UpdateDivider=120
+
+; Disk 7
+[measureTitleDisk7]
+Measure=FreeDiskSpace
+Drive=#disk7#
+Label=1
+Update=-1
+
+[measureTotalDisk7]
+Measure=FreeDiskSpace
+Drive=#disk7#
+Total=1
+UpdateDivider=120
+
+[measureUsedDisk7]
+Measure=FreeDiskSpace
+Drive=#disk7#
+InvertMeasure=1
+UpdateDivider=120
+
+[measureFreeDisk7]
+Measure=FreeDiskSpace
+Drive=#disk7#
+UpdateDivider=120
+
+; Disk 8
+[measureTitleDisk8]
+Measure=FreeDiskSpace
+Drive=#disk8#
+Label=1
+Update=-1
+
+[measureTotalDisk8]
+Measure=FreeDiskSpace
+Drive=#disk8#
+Total=1
+UpdateDivider=120
+
+[measureUsedDisk8]
+Measure=FreeDiskSpace
+Drive=#disk8#
+InvertMeasure=1
+UpdateDivider=120
+
+[measureFreeDisk8]
+Measure=FreeDiskSpace
+Drive=#disk8#
 UpdateDivider=120
